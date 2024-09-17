@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://assets.onecompiler.app/42scm7reh/42scm93jx/dog-7092595_1920.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 800px;
+    margin: 2em auto;
+    border-radius: 8px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.gallery-item {
+    margin-bottom: 2em;
+}
+
+.gallery-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.team-list li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
