@@ -1,4 +1,4 @@
-Project README
+Project PETS-TALES
 This project was given by Prodigy Infotech as Task 1.
 
 See Demo( https://petstales-bbar.netlify.app/ )
